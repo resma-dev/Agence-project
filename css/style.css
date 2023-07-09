@@ -1,0 +1,486 @@
+/* COMMON CSS START */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    line-height: 0.8;
+}
+/* COMMON CSS END */
+/* NAVBAR CSS START */
+.navbar{
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+    /* background: #1E1E1E; */
+}
+.navbar-expand-lg .navbar-nav .nav-item{
+    padding-left: 32px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    position: relative;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    transition: all linear 0.5s;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+    color: #4756DF;
+}
+.btn button{
+    width: 162px;
+    height: 56px;
+    background: #6A4DF4;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid #6A4DF4;
+    cursor: pointer;
+    
+}
+/* NAVBAR CSS END */
+/* bannar css start */
+#bannar-part{
+    position: relative;
+    background: url(../images/agenc-Banner\ 1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 315px;
+    padding-bottom: 176px;
+    z-index: 1;
+}
+#bannar-part::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: -1;
+}
+.bannar-text h1{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 75px;
+    line-height: 120%;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0 auto;
+}
+.bannar-text p{
+    width: 621px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 51px;
+}
+.bannar-btn button{
+    padding: 15px 42px;
+    background: #6A4DF4;
+    border-radius: 10px;
+    color: #FFFFFF;
+    border: none;
+    margin-top: 40px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+}
+/* bannar css end */
+/* about css start */
+#about-part{
+    padding-top: 171px;
+    padding-bottom: 149px;
+}
+.about-text{
+    background: #E0FFF9;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.about-left-text{
+    width: 40%;
+    padding-top: 85px;
+    padding-bottom: 86px;
+    padding-left: 50px;
+}
+.about-left-text p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 120%;
+    color: #6A4DF4;
+    padding-bottom: 15px;
+}
+.about-left-text h4{
+    width: 387px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 42px;
+    color: #151515;
+}
+.about-right-text{
+    width: 60%;
+    padding-top: 69px;
+    padding-bottom: 170px;
+    padding-right: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.about-counter h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 61px;
+    color: #151515;
+    padding-bottom: 20px;
+}
+.about-counter p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    color: #737373;
+}
+/* about css end */
+/* services css start */
+#services-part{
+    padding-bottom: 150px;
+}
+.common-title h4{
+    padding-bottom: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+    color: #151515;
+}
+.common-title p{
+    width: 609px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #737373;
+}
+.service{
+    padding-top: 80px;
+    padding-bottom: 47px;
+    transition: 0.5s;
+}
+.service:hover{
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.25);
+    background: #FFFFFF;
+}
+.service-text h5{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #151515;
+    padding-top: 40px;
+}
+.service-text p{
+    width: 326px;
+    margin: 0 auto;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #737373;
+    padding-top: 20px;
+}
+/* services css end */
+/* recent work css start */
+#recent-work{
+    background: #F3F3F3;
+    padding: 150px 0;
+}
+.recent{
+    width: 424px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    padding-bottom: 30px;
+}
+.recent-img{
+    padding-bottom: 30px;
+}
+.recent-text h5{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #151515;
+    padding-bottom: 10px;
+}
+.recent-text p{
+    width: 340px;
+    margin: 0 auto;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #737373;
+}
+/* recent work css end */
+/* choose agenc css start */
+#choose-agenc{
+    padding-top: 150px;
+    padding-bottom: 106px;
+}
+#choose-agenc .common-title h4{
+    width: 518px;
+    margin: 0 auto;
+}
+#choose-agenc .common-title p{
+    width: 802px;
+    margin: 0 auto;
+    text-align: center;
+}
+.choose-part{
+    padding-top: 130px;
+}
+.choose{
+    width: 344px;
+}
+.choose-text h5{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #151515;
+    padding-top: 20px;
+}
+.choose-text p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #737373;
+    padding-top: 10px;
+}
+.choose-bottom{
+    padding-top: 52px;
+}
+/* choose agenc css end */
+/* reviews css start */
+#reviews{
+    padding-bottom: 227px;
+}
+.reviews-part{
+    padding-top: 130px;
+}
+.reviews-item{
+    padding: 54px 0;
+    padding-left: 59px;
+    padding-right: 58px;
+    transform: 0.5s;
+}
+.reviews-item:hover{
+    background: #F4EFEF;
+    border-radius: 30px;
+}
+.reviews-text p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #7B7B7B;
+    padding-top: 20px;
+}
+.reviews-icon{
+    color: #F9BD2C;
+    padding-top: 20px;
+}
+.reviews-bottom{
+    padding-top: 32px;
+}
+.reviews-bottom-text{
+    padding-left: 20px;
+}
+.reviews-bottom-text h6{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 120%;
+    color: #232323;
+}
+.reviews-bottom-text p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #7B7B7B;
+}
+/* reviews css end */
+/* pricing css start */
+#pricing-part{
+    background: #F3F3F3;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.pricing-left{
+    padding-top: 188px;
+}
+.pricing-details h5{
+    width: 470px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+    color: #151515;
+    padding-bottom: 20px;
+}
+.pricing-details p{
+    width: 514px;  
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #7B7B7B;
+    padding-bottom: 10px;
+}
+.pricing-right{
+    background: #FFFFFF;
+    border-radius: 20px;
+    width: 536px;
+    padding: 61px 43px;
+}
+.form-title h5{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #151515;
+    padding-bottom: 30px;
+}
+.form-field p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #151515;
+    padding-top: 20px;
+}
+.form-field input {
+    padding: 20px 0;
+    padding-right: 235px;
+    padding-left: 20px;
+    border-radius: 10px;
+    border:1px solid #737373;
+}
+.form-button{
+    padding-top: 30px;
+    text-align: center;
+}
+.form-button button {
+    padding: 20px 0;
+    padding-right: 173px;
+    padding-left: 147px;
+    background: #6A4DF4;
+    border: none;
+    border-radius: 10px;
+    color: #FFFFFF;
+}
+/* pricing css end */
+/* footer css start */
+#footer-part{
+    padding-top: 150px;
+    padding-bottom: 33px;
+}
+.footer-wrap{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-left{
+    width: 40%;
+}
+.footer-text p{
+    width: 356px;
+    padding-top: 30px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #7B7B7B;
+}
+.footer-right{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-item h5{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #151515;
+    padding-bottom: 40px;
+}
+.footer-item p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    /* line-height: 40px; */
+    color: #7B7B7B;
+}
+.copyright p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #D0D0D0;
+}
